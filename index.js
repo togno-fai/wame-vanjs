@@ -6,7 +6,7 @@ const wameGenerator = () => {
   return div({ display: "flex", style: "margin:5px" },
     img({ src: "favicon.png", flex: "50%", style: "max-height:150px" }),
     div({ flex: "50%" },
-      div({ style: "margin:5px" }, "wame!"),
+      div({ style: "margin:5px" }, "wame!!!"),
       div(input({
         type: "text",
         value: original,
